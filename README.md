@@ -22,6 +22,17 @@ A Node.js project implementing a Model Context Protocol (MCP) server and client 
    ```bash
    npm install
    ```
+
+   The following packages will be installed:
+   - @inquirer/prompts
+   - @modelcontextprotocol/sdk
+   - dotenv
+   - zod
+   - @modelcontextprotocol/inspector (dev)
+   - @types/node (dev)
+   - ts-node (dev)
+   - tsx (dev)
+   - typescript (dev)
 3. **Build the server:**
    ```bash
    npm run server:build
