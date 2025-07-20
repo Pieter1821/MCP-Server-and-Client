@@ -18,7 +18,7 @@ const server = new mcp_js_1.McpServer({
 });
 server.tool("Create-user", "Create a new  user in the database", {
     name: zod_1.z.string(),
-    email: zod_1.z.string().email(),
+    email: zod_1.z.string(),
     address: zod_1.z.string(),
     phone: zod_1.z.string(),
 }, {

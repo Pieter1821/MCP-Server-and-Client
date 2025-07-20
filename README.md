@@ -3,10 +3,12 @@
 A Node.js project implementing a Model Context Protocol (MCP) server and client for resource and tool management, user data handling, and prompt-based operations.
 
 ## Features
-- MCP server with resource, tool, and prompt registration
-- User data management (CRUD operations)
-- Client for interacting with the MCP server
-- TypeScript and JavaScript support
+
+- Interactive CLI for Model Context Protocol (MCP) server
+- Tool execution with dynamic input prompts
+- Resource and resource template reading with parameter substitution
+- Prompt selection and execution
+- Integrated Google Gemini API for text generation
 
 ## Prerequisites
 - [Node.js](https://nodejs.org/) (v18+ recommended)
@@ -39,6 +41,15 @@ A Node.js project implementing a Model Context Protocol (MCP) server and client 
    ```
 
 ## Usage
+
+1. Install dependencies and set up your `.env` file with `GEMINI_API_KEY`.
+2. Run the client:
+   ```
+   npm run build
+   node build/client.js
+   ```
+3. Follow the CLI prompts to interact with tools, resources, and prompts.
+
 ### Run the server (development)
 ```bash
 npm run server:dev

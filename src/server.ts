@@ -91,7 +91,7 @@ server.resource("user-details", new ResourceTemplate("users://{userId}/profile",
 server.tool("Create-user", "Create a new  user in the database", {
 
     name: z.string(),
-    email: z.string().email(),
+    email: z.string(),
     address: z.string(),
     phone: z.string(),
 

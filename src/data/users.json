@@ -243,5 +243,26 @@
     "email": "jessica.ramirez82@gmail.com",
     "address": "1842 Willow Creek Dr, Austin, TX 78745",
     "phone": "+1-512-555-3478"
+  },
+  {
+    "id": 36,
+    "name": "Colonel Sanders",
+    "email": "colonel.sanders@kentuckyfriedmail.com",
+    "address": "650 W Main St, Louisville, KY 40202",
+    "phone": "+1-502-555-1930"
+  },
+  {
+    "id": 37,
+    "name": "Sir Laughsalot the Meme Lord",
+    "email": "funny.bone@lolmail.com",
+    "address": "123 Meme Street, Internet City",
+    "phone": "+1-800-HAHA-LOL"
+  },
+  {
+    "id": 38,
+    "name": "Pieter",
+    "email": "test@gmail.com",
+    "address": "5 Selborne Road",
+    "phone": "0011010110"
   }
 ]
